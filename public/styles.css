@@ -1,5 +1,5 @@
-.what { 
-    color: blue
+.icons {
+    color: white !important;
 }
 
 .bg-1 {
@@ -11,14 +11,21 @@
     display: inline;
     margin: 0 auto;
     border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
 }
 
-.about-me-container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    height: 100%;
+.main-container { 
+    background-color:#314455;
+    color: white;
+}
+
+.picture-container {
+    background-color: #2C98F0
+}
+
+.interest-container { 
+    background-color: #EAF1F1
 }
 
 .title {
@@ -26,16 +33,38 @@
     margin-bottom: 25px;
     min-height: 32px;
     font-weight: 700;
-    color: #3C4858;
+    color: white;
     font-size: 55px;
 }
 
-.border-color {
-    background-color: #D3D3D3 !important;
+.nav-color {
+    background-color: #5d5c61;
 }
 
 .bio {
-    color: black;
-    font-family: 'Courier New', Courier, monospace; 
+    color: black; 
     font-size: 18px
 }
+
+.custom-line1 {
+    margin:auto; 
+    width:25%;
+    padding-bottom: 2px;
+    color: #314455;
+    opacity: 1;
+}
+
+.custom-line {
+    margin:auto;
+    width: 30%; 
+    color: white;
+    opacity: 1;
+    padding-bottom: 2px;
+}
+
+.universal-font {
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+
+
