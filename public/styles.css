@@ -1,3 +1,41 @@
 .what { 
     color: blue
 }
+
+.bg-1 {
+    background-color: white;
+    color: #ffffff;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.about-me-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100%;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    font-weight: 700;
+    color: #3C4858;
+    font-size: 55px;
+}
+
+.border-color {
+    background-color: #D3D3D3 !important;
+}
+
+.bio {
+    color: black;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 18px
+}
