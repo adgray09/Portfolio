@@ -1,5 +1,6 @@
 .icons {
-    color: white !important;
+    color: #314455 !important;
+    
 }
 
 .bg-1 {
@@ -69,7 +70,7 @@
 }
 
 .universal-font {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img {
@@ -79,8 +80,9 @@ img {
 
 .project-title {
     font-weight: 500;
-    text-align: center;
+    text-align: left;
     padding-top: 5px;
+    padding-left: 10px;
 }
 
 .project-text {
@@ -102,4 +104,20 @@ img {
 
 .sub-heading {
     font-size: 50px;
+}
+
+.card-size {
+    height: 540px;
+}
+
+.card-sub-heading {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin-right: 20px;
 }

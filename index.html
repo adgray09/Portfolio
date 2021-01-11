@@ -4,7 +4,8 @@
     <link rel="stylesheet" href="./public/styles.css">  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <!-- Navigation -->
@@ -12,31 +13,12 @@
 
     <nav class="universal-font navbar navbar-expand-lg main-container navbar-light py-4">
         <div class="container">
-            <a class="navbar-brand icons" href="#">Alex Gray</a>
-            <div class="justify-content-end collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.github.com/adgray09" target="_blank">
-                            <i class="icons fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
-                            <i class="icons fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="mailto:adgray29@gmail.com" target="_blank">
-                            <i class="icons fas fa-paper-plane"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" target="_blank">
-                            <i class="icons fas fa-file"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <a style="color: white !important" class="navbar-brand" href="#">Alex Gray</a>
+        </div>
+        <div>
+            <button class="button">
+                <a style="color: black; text-decoration: none;" href="AlexGray.pdf">Resume</a>
+            </button>
         </div>
     </nav>
 
@@ -57,7 +39,7 @@
     <div class="universal-font"> 
         <div class="container">
             <div>
-                <h1 style="color: #314455; margin-top: 20px;" class="sub-heading"> About me </h1>
+                <h1 style="color: #314455; padding-top: 15px;" class="sub-heading"> About me </h1>
                 <hr class="custom-line1">
                 <br>
             </div>
@@ -95,35 +77,38 @@
     <!-- Projects -->
     <div class="project-container universal-font">
         <div class="container">
-            <h1 class="sub-heading">Projects</h1>
+            <h1 class="sub-heading" style="padding-top: 15px;">Projects</h1>
             <hr class="custom-line2"></hr>
             <br>
             <div class="bottom-buffer">
-                <div class="row">
+                <div class="row card-deck">
                     <div class="col portfolio-item">
-                        <div class="card">
+                        <div class="card card-size">
                             <img src="public/pictures/S-S.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://github.com/adgray09/Shoe-Stocks" class="other-page"><h2 class="project-title card-title">Shoe-Stocks</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Python, BeautifulSoup, Selenium, React, Heroku, ChartJS</p>
+                                <p class="project-text card-text">Web scraper with a data visualization front-end to aggregate and record prices in third-party sneaker markets like GOAT and Grailed.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col portfolio-item">
-                        <div class="card">
+                        <div class="card card-size">
                             <img src="public/pictures/Chipin.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://github.com/NinjaAung/ChipIn" class="other-page"><h2 class="project-title card-title">Chipin</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Flask, MongoDB, Heroku, Python </p>
+                                <p class="project-text card-text">Full stack project to help people donate to charities and organizations safely.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col portfolio-item">
-                        <div class="card">
+                        <div class="card card-size">
                             <img src="public/pictures/art-hub.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://github.com/adgray09/art_hub" class="other-page"><h2 class="project-title card-title">Art Hub</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Flask, MongoDB, Heroku, HTML, CSS, HTML</p>
+                                <p class="project-text card-text">Full stack project to help artists to list their pieces for sale. </p>
                             </div>
                         </div>
                     </div>
@@ -132,29 +117,32 @@
             <div class="bottom-buffer">
                 <div class="row">
                     <div class="col portfolio-item">
-                        <div class="card ">
+                        <div class="card card-size">
                             <img src="public/pictures/recipe-journal.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://github.com/adgray09/recipe_journal" class="other-page"><h2 class="project-title card-title">Recipe Journal</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Django, Docker, Postgres, HTML, CSS, Python </p>
+                                <p class="project-text card-text"> Full stack project to help people safely archive their old family recipes on paper in the cloud for generations to come.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col portfolio-item">
-                        <div class="card ">
+                        <div class="card card-size">
                             <img src="public/pictures/tweet.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://tweetgenerator-ag.herokuapp.com/#" class="other-page"><h2 class="project-title card-title">Tweet Generator</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Heroku, Flask, Python</p>
+                                <p class="project-text card-text"> Project built for generating random tweets using Markov Chains.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col portfolio-item">
-                        <div class="card">
+                        <div class="card card-size">
                             <img src="public/pictures/fluent.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
                                 <a href="https://github.com/xingY97/Fluent" class="other-page"><h2 class="project-title card-title">Fluent</h2></a>
-                                <p class="project-text card-text"> This is some sample text</p>
+                                <p class="card-sub-heading">Swift, Xcode, Mlkit</p>
+                                <p class="project-text card-text"> Fluent is an iphone keyboard app that automatically shows a translation of what they've typed in the language they are learning.</p>
                             </div>
                         </div>
                     </div>
@@ -163,13 +151,27 @@
         </div>
         <br>
     </div>
-
-
-    <!-- Contact -->
-    <div class="container universal-font">
-        <h1 class="sub-heading">Contact me</h1>
+<div class="container">
+    <h1 class="sub-heading">Contact me</h1>
         <hr class="custom-line2">
-    </div> 
+        <div style="padding-bottom: 30px;"class="row">
+            <div class="col">
+                <a href="https://www.github.com/adgray09" target="_blank">
+                    <i class="icons fab fa-github fa-10x"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
+                    <i class="icons fab fa-linkedin fa-10x"></i>
+                </a>
+            </div>
+            <div class="col">
+                <a href="https://www.github.com/adgray09" target="_blank">
+                    <i class="icons fas fa-paper-plane fa-10x"></i>
+                </a>
+            </div>
+        </div>
+</div>
 
 <!-- FOOTER -->
 <footer class="universal-font footer-space main-container footer-light py-4 text-center text-lg-start">
