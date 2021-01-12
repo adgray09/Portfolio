@@ -11,37 +11,76 @@
 <!-- Navigation -->
 <body>
 
-    <nav class="universal-font navbar navbar-expand-lg main-container navbar-light py-4">
+    <nav class="picture-container universal-font navbar navbar-expand-lg main-container navbar-light py-4">
         <div class="container">
-            <a style="color: white !important" class="navbar-brand" href="#">Alex Gray</a>
-        </div>
+            <!-- <div>
+                <ul>
+                    <div style="padding-bottom: 30px;"class="row">
+                        <div class="col nav-item">
+                            <a href="https://www.github.com/adgray09" target="_blank">
+                                <i class="nav-icons fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="col nav-item">
+                            <a href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
+                                <i class="nav-icons fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="col nav-item">
+                            <a href="https://www.github.com/adgray09" target="_blank">
+                                <i class="nav-icons fas fa-paper-plane"></i>
+                            </a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div> -->
         <div>
             <button class="button">
-                <a style="color: black; text-decoration: none;" href="Alex-resume.pdf">Resume</a>
+                <a style="color: black; text-decoration: none;" href="Alex-resume.pdf">My resume</a>
             </button>
         </div>
     </nav>
 
     <!-- PICTURE -->
-    <div class="picture-container universal-font">
-        <div class="picture-container rounded container bg-1 text-center">
+    <div class="top-padding picture-container universal-font">
+        <div class="picture-container rounded container bottom-padding bg-1 text-center">
             <br>
             <img class="profile-pic picture-container" src="public/pictures/profile-pic.jpg" alt="Bird">
-            <h3 class="my-name">Alex Gray</h3>
+            <h3 class="my-name top-padding">Alex Gray</h3>
             <hr class="custom-line">
             <div style="padding-bottom: 5px;"></div>
-            <h4 style="font-size: 30px;">Software Engineer</h4> 
-            <div style="padding-bottom: 10px;"></div>
+            <h4 style="padding-top: 15px;font-size: 40px;">Software Engineer</h4> 
+            <div style="padding-bottom: 45px;"></div>
+            <ul>
+                <div style="padding-right: 30px;"class="row justify-content-md-center">
+                    <div class="col col-lg-2">
+                        <a href="https://www.github.com/adgray09" target="_blank">
+                            <i class="nav-icons fa-5x fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-auto">
+                        <a href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
+                            <i class="nav-icons fa-5x fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="col col-lg-2">
+                        <a href="https://www.github.com/adgray09" target="_blank">
+                            <i class="nav-icons fa-5x fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </ul>
         </div>
     </div>
     
     <!-- ABOUT ME -->
     <div class="universal-font"> 
-        <div class="container">
+        <div class="container top-padding bottom-padding">
             <div>
-                <h1 style="color: #314455; padding-top: 15px;" class="sub-heading"> About me </h1>
+                <h1 style="color: #314455;" class="sub-heading"> About me </h1>
                 <hr class="custom-line1">
-                <br>
+                <div class="content-padding"></div>
             </div>
 
             <div class="row text-left">
@@ -75,11 +114,11 @@
     </div>
 
     <!-- Projects -->
-    <div class="project-container universal-font">
+    <div class="top-padding bottom-padding project-container universal-font">
         <div class="container">
-            <h1 class="sub-heading" style="padding-top: 15px;">Projects</h1>
+            <h1 class="sub-heading1">Projects & Education</h1>
             <hr class="custom-line2"></hr>
-            <br>
+            <div class="content-padding"></div>
             <div class="bottom-buffer">
                 <div class="row card-deck">
                     <div class="col portfolio-item">
@@ -94,11 +133,11 @@
                     </div>
                     <div class="col portfolio-item">
                         <div class="card card-size">
-                            <img src="public/pictures/Chipin.png" class="card-img-top" alt="..."></img>
+                            <img src="public/pictures/tweet.png" class="card-img-top" alt="..."></img>
                             <div class="card-block">
-                                <a href="https://github.com/NinjaAung/ChipIn" class="other-page"><h2 class="project-title card-title">Chipin</h2></a>
-                                <p class="card-sub-heading">Flask, MongoDB, Heroku, Python </p>
-                                <p class="project-text card-text">Full stack project to help people donate to charities and organizations safely.</p>
+                                <a href="https://tweetgenerator-ag.herokuapp.com/#" class="other-page"><h2 class="project-title card-title">Tweet Generator</h2></a>
+                                <p class="card-sub-heading">Heroku, Flask, Python</p>
+                                <p class="project-text card-text"> Project built for generating random tweets using Markov Chains.</p>
                             </div>
                         </div>
                     </div>
@@ -128,9 +167,9 @@
                     </div>
                     <div class="col portfolio-item">
                         <div class="card card-size">
-                            <img src="public/pictures/tweet.png" class="card-img-top" alt="..."></img>
+                            <img src="public/pictures/makeschool.jpeg" class="card-img-top" alt="..."></img>
                             <div class="card-block">
-                                <a href="https://tweetgenerator-ag.herokuapp.com/#" class="other-page"><h2 class="project-title card-title">Tweet Generator</h2></a>
+                                <a href="https://www.makeschool.com/" class="other-page"><h2 class="project-title card-title">Makeschool</h2></a>
                                 <p class="card-sub-heading">Heroku, Flask, Python</p>
                                 <p class="project-text card-text"> Project built for generating random tweets using Markov Chains.</p>
                             </div>
@@ -148,39 +187,72 @@
                     </div>
                 </div>
             </div>
+            <h1 class="sub-heading">Articles</h1>
+            <hr class="custom-line2"></hr>
+            <div class="content-padding"></div>
+            <div class="row">
+                <div class="col portfolio-item">
+                    <div class="card article-card">
+                        <img src="public/pictures/Docker.png" class="card-img-top" alt="..."></img>
+                        <div class="card-block">
+                            <a href="https://alexgray-45030.medium.com/docker-tutorial-ab3643167962" class="other-page"><h2 class="project-title card-title">Dockerizing Flask App</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col portfolio-item">
+                    <div class="card article-card">
+                        <img src="public/pictures/sorting.png" class="card-img-top" alt="..."></img>
+                        <div class="card-block">
+                            <a href="https://alexgray-45030.medium.com/sorting-algorithms-20df5d4d083" class="other-page"><h2 class="project-title card-title">Sorting Algorithms</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col portfolio-item">
+                    <div class="card article-card">
+                        <img src="public/pictures/hash.png" class="card-img-top" alt="..."></img>
+                        <div class="card-block">
+                            <a href="https://alexgray-45030.medium.com/basics-of-hashtables-hash-maps-641bb771c675" class="other-page"><h2 class="project-title card-title">Basics of Hashtables</h2></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <br>
     </div>
-<div class="container">
-    <h1 class="sub-heading">Contact me</h1>
-        <hr class="custom-line2">
-        <div style="padding-bottom: 30px;"class="row">
-            <div class="col">
-                <a href="https://www.github.com/adgray09" target="_blank">
-                    <i class="icons fab fa-github fa-10x"></i>
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
-                    <i class="icons fab fa-linkedin fa-10x"></i>
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://www.github.com/adgray09" target="_blank">
-                    <i class="icons fas fa-paper-plane fa-10x"></i>
-                </a>
-            </div>
-        </div>
-</div>
 
-<!-- FOOTER -->
-<footer class="universal-font footer-space main-container footer-light py-4 text-center text-lg-start">
-    
-    <!-- Copyright -->
-    <div class="text-center p-3 border-color" >
-    Copyright © Alexander Gray 2021
+    <!-- Contact Page -->
+
+    <div class="container top-padding">
+        <h1 class="sub-heading">Contact me</h1>
+            <hr class="custom-line2">
+            <div class="content-padding"></div>
+            <div class="row justify-content-md-center">
+                <div class="col col col-lg-2">
+                    <a href="https://www.github.com/adgray09" target="_blank">
+                        <i class="icons fab fa-github fa-10x"></i>
+                    </a>
+                </div>
+                <div class="col-md-auto">
+                    <a href="https://www.linkedin.com/in/alexander-gray-42b439193/" target="_blank">
+                        <i class="icons fab fa-linkedin fa-10x"></i>
+                    </a>
+                </div>
+                <div class="col col-lg-2">
+                    <a href="https://www.github.com/adgray09" target="_blank">
+                        <i class="icons fas fa-paper-plane fa-10x"></i>
+                    </a>
+                </div>
+            </div>
     </div>
-</footer>
+
+    <!-- FOOTER -->
+    <footer class="universal-font footer-space main-container footer-light py-4 text-center text-lg-start">
+        
+        <!-- Copyright -->
+        <div class="text-center p-3 border-color" >
+            Copyright © Alexander Gray 2021
+        </div>
+    </footer>
 
 </body>
 
